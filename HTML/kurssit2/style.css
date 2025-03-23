@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body{
+    background-image: linear-gradient(#68b2f0, #1f4a52);
+    min-height: 100vh;
+}
+
+h1, td, a, li{
+    font-size: 2.2rem;
+    font-family: sans-serif;
+}
+
+h1, th{
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+    border-bottom: 2px solid black;
+    width: fit-content;
+}
+
+table{
+    border-spacing: 0;
+}
+
+td{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: gray;
+    border: 2px solid black;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: white;
+    color: #000;
+}
